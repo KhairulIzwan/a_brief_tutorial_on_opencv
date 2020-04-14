@@ -40,7 +40,7 @@ class OpenCVBasic_node:
 		rospy.on_shutdown(self.shutdown)
 
 		# Publish to the image_dims topic
-		self.imgdims_pub = rospy.Publisher('image_dims', Int32, 
+		# self.imgdims_pub = rospy.Publisher('image_dims', Int32, 
 queue_size=10)
 
 	# Shutdown
