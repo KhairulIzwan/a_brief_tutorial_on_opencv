@@ -6,6 +6,7 @@ rotation, blurring, etc.).
 3. Perform image subtraction.
 4. Utilize OpenCV for face and object detection.
 
+## script
 1. **basics.py**: Contains our implementation of basic image processing 
 operations so we can use them to get hands-on experience.
 2. **count_shapes.py**: Performs shape counting via OpenCV and contour/outline 
@@ -14,11 +15,13 @@ detection.
 of a scene from the foreground.
 4. **detect_faces.py**: Detects faces in video streams.
 
+## xml
 The .xml file in the project structure is Haar cascade that has been trained by 
 the OpenCV library and then serialized to disk.
 
 We’ll load the model and then use it to perform face detection inside 
 detect_faces.py.
 
+## images
 The images/ directory contains various images that we’ll be using as examples in 
 this chapter.
